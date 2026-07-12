@@ -70,3 +70,12 @@ document.querySelectorAll("section").forEach(section=>{
 });
 
 console.log("DEMILADE STUDIOS Website Loaded Successfully");
+const menuToggle = document.getElementById("menu-toggle");
+
+const navLinks = document.getElementById("nav-links");
+
+menuToggle.addEventListener("click",()=>{
+
+navLinks.classList.toggle("active");
+
+});
