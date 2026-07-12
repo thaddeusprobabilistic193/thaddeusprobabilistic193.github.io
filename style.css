@@ -643,3 +643,60 @@ padding:12px 20px;
 }
 
    }
+/* ===========================
+   MOBILE MENU
+=========================== */
+
+.menu-toggle{
+
+display:none;
+
+font-size:32px;
+
+cursor:pointer;
+
+color:var(--gold);
+
+}
+
+@media(max-width:992px){
+
+.menu-toggle{
+
+display:block;
+
+}
+
+.nav-links{
+
+display:none;
+
+position:absolute;
+
+top:90px;
+
+right:5%;
+
+width:250px;
+
+background:#111;
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:15px;
+
+padding:20px;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.nav-links.active{
+
+display:flex;
+
+}
+
+   }
